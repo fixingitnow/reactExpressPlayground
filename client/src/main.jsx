@@ -9,6 +9,8 @@ import Hello from './pages/hello.jsx'
 import UserProfile from './pages/userProfile.jsx'
 import ImageSlider from './pages/ImageSlider.jsx'
 import Minesweeper from './pages/Minesweeper.jsx'
+import InterviewPrep from './pages/InterviewPrep.jsx'
+import Import from './pages/Import.jsx'
 import Booking from './pages/Booking.jsx'
 
 createRoot(document.getElementById('root')).render(
@@ -21,6 +23,8 @@ createRoot(document.getElementById('root')).render(
         <Route path="/image-slider" element={<ImageSlider />} />
         <Route path="/minesweeper" element={<Minesweeper />} />
         <Route path="/booking" element={<Booking />} />
+        <Route path="/interview-prep" element={<InterviewPrep />} />\
+        <Route path="/import" element={<Import />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

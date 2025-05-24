@@ -1,0 +1,42 @@
+export const REEVO_ACCOUNT_FIELDS = [
+  'display_name',
+  'website',
+  'industry',
+  'linkedin_url',
+  'technologies',
+]
+
+export const REEVO_CONTACT_FIELDS = [
+  'display_name',
+  'first_name',
+  'last_name',
+  'title',
+  'company_name',
+  'street_one',
+  'street_two',
+  'city',
+  'state',
+  'zip_code',
+  'country',
+  'middle_name',
+  'primary_email',
+  'department',
+  'primary_phone_number',
+  'zoominfo_url',
+  'linkedin_url',
+  'company_official_website',
+  'company_revenue_range',
+  'company_employee_range',
+  'company_category',
+  'company_zoominfo_url',
+  'company_linkedin_url',
+  'company_facebook_url',
+  'company_x_url',
+  'company_address_street_one',
+  'company_address_city',
+  'company_address_state',
+  'company_address_zip_code',
+  'company_address_country',
+]
+
+export const FILE_SIZE_LIMIT = 10 * 1024 // 10KB in bytes
